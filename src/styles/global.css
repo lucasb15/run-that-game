@@ -1,0 +1,14 @@
+:root {
+  --backgound-color: #10061E;
+  --details-color: #FC4754;
+  --details-color-menor: #FF828B;
+}
+
+body {
+  background-color: var(--backgound-color);
+  color: white;
+}
+
+.App {
+  background-attachment: fixed;
+}
