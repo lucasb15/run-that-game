@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 💻 Comparador de PCs para Jogos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto tem como objetivo ajudar usuários com pouco ou nenhum conhecimento técnico a encontrarem as melhores combinações de hardware para rodar os jogos que desejam, respeitando seu orçamento.
 
-## Available Scripts
+## 🎯 Objetivo
 
-In the project directory, you can run:
+Oferecer uma ferramenta simples e intuitiva que:
 
-### `npm start`
+- Permita ao usuário selecionar jogos de interesse
+- Permita que o usuário forneça um orçamento máximo
+- Sugira configurações de hardware compatíveis com diferentes faixas de preço
+- Facilite a tomada de decisão com visualização clara e interativa das opções
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades do MVP
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Seleção de jogos com base na **STEAM API**
+- Filtros por orçamento e preferência de marca (Intel/AMD)
+- Exibição de três sugestões de configurações (mais barata, ideal e mais cara)
+- Interface desenvolvida em **React** com back-end em **C# (Entity Framework)**
 
-### `npm test`
+## 🔧 Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (Front-end)
+- C# com Entity Framework (Back-end)
+- SQL Server (Banco de Dados)
+- Python (scripts auxiliares)
 
-### `npm run build`
+## 📌 Futuras Expansões (pós-MVP)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Login e criação de conta para salvar preferências
+- Integração com YouTube para mostrar benchmarks e gameplays
+- Comparação lado a lado de hardwares
+- Dashboard com métricas de uso
+- Painel administrativo
