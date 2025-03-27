@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 import logo from "../../assets/Logo.png";
 import logoBrasil from "../../assets/Logo Brasil.png";
@@ -9,19 +10,19 @@ const Header = () => {
         <img src={logo} alt="Logo do site" />
         <p>Run That Game</p>
       </div>
-      <div class="menus">
-        <a href="facebook.com" className="link-menu">
+      <div className="menus">
+        <Link to="/" className="link-menu">
           Início
-        </a>
-        <a href="facebook.com" className="link-menu">
+        </Link>
+        <Link to="/sobre" className="link-menu">
           Sobre
-        </a>
-        <a href="facebook.com" className="link-menu">
+        </Link>
+        <Link to="/lista" className="link-menu">
           Lista de Jogos
-        </a>
-        <a href="facebook.com" className="link-menu">
+        </Link>
+        <Link to="/contato" className="link-menu">
           Contato
-        </a>
+        </Link>
       </div>
       <div class="idioma">
         <img src={logoBrasil} alt="Logo Brasil" />

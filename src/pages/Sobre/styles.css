@@ -1,0 +1,22 @@
+.container {
+  margin: 80px;
+}
+
+.titulo {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.texto {
+  font-size: 20px;
+}
+
+.texto-1 {
+  text-indent: 30px;
+}
+
+.lista {
+  list-style-type: disc;
+  margin: 20px
+}
