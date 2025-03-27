@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menus {
+  position: absolute;
+  /* Posição absoluta em relação ao .App-header */
+  left: 50%;
+  /* Move o início do menu para o meio */
+  transform: translateX(-50%);
+  /* Ajusta o centro */
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.idioma {
+  margin: 0 10px;
+}

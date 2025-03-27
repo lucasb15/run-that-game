@@ -1,14 +1,14 @@
 import "./styles.css";
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 
 const cores = [
   "252, 71, 84", // Valorant
   "229, 239, 254", //God Of War
   "125, 57, 26", //Horizon Zero Dawn
-];
+];*/
 
 const BackgroundCircles = () => {
-  const [indice, setIndice] = useState(0);
+  /*  const [indice, setIndice] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,7 +21,7 @@ const BackgroundCircles = () => {
   // Atualiza a variável CSS no <html>
   useEffect(() => {
     document.documentElement.style.setProperty("--cor-jogo", cores[indice]);
-  }, [indice]);
+  }, [indice]);*/
 
   return (
     <div className="backgound-circulos">

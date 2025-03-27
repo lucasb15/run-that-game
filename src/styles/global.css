@@ -1,8 +1,10 @@
 :root {
   --backgound-color: #10061E;
+  --text-color: white;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: var(--backgound-color);
-  color: white;
+  color: var(--text-color);
 }

@@ -1,11 +1,14 @@
 import BackgroundCircles from "./components/BackgroundCircles/BackgoundCircles";
+import BackgoundRectangle from "./components/BackgroundRectangle/BackgoundRectangle";
+import Header from "./components/Header/Header";
 import "./styles/global.css";
 
 function App() {
   return (
     <div className="App">
       <BackgroundCircles />
-      <header className="App-header"></header>
+      <BackgoundRectangle />
+      <Header />
     </div>
   );
 }
